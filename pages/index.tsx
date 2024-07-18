@@ -134,8 +134,7 @@ const Home: NextPage = () => {
               className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
-              Drop in your job{' '}
-              <span className="text-slate-500">(or your favorite hobby)</span>.
+              Tell us about your special someone{' '}.
             </p>
           </div>
           <textarea
@@ -143,7 +142,7 @@ const Home: NextPage = () => {
             onChange={(e) => setBio(e.target.value)}
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
-            placeholder={'e.g. Amazon CEO'}
+            placeholder={'My mother likes to go sailing'}
           />
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />

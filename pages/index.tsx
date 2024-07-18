@@ -44,7 +44,7 @@ const Home: NextPage = () => {
     e.preventDefault();
     setGeneratedBios('');
     setLoading(true);
-    const response = await fetch(isGPT ? '/api/openai' : '/api/mistral', {
+    const response = await fetch('/api/openai', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
